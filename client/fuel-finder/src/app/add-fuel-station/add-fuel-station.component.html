@@ -1,0 +1,6 @@
+<h2>Add Fuel Station</h2>
+<hr />
+<input type="text" name="name" [formControl]="name" placeholder="Name" class="form-control" (keyup)="handleChange($event)">
+<p>{{ data.name }}</p>
+<input type="text" name="location" [formControl]="location" placeholder="Location" class="form-control">
+<button class="btn btn-outline-secondary" (click)="handleClick()">Add Station</button>
